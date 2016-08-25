@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Dukt\\OAuth2\\Client\\": "src/"
+        }
+    },
+	"require": {
+		"league/oauth2-google": "~1.0"
+	}
+}
