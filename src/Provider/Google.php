@@ -8,7 +8,7 @@ use League\OAuth2\Client\Token\AccessToken;
 use League\OAuth2\Client\Tool\BearerAuthorizationTrait;
 use Psr\Http\Message\ResponseInterface;
 
-class Google extends AbstractProvider
+class Google extends \League\OAuth2\Client\Provider\AbstractProvider\Google
 {
     public function getResourceOwnerDetailsUrl(AccessToken $token)
     {
